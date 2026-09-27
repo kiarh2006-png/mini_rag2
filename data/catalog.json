@@ -1,0 +1,102 @@
+{
+  "penal_code.pdf": {
+    "title": "قانون مجازات اسلامی",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "taazirat.txt": {
+    "title": "قانون مجازات (تعزیرات)",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "civil_law.pdf": {
+    "title": "قانون مدنی",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "civil_procedure.pdf": {
+    "title": "قانون آیین دادرسی مدنی",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "criminal_procedure.pdf": {
+    "title": "قانون آیین دادرسی کیفری",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "labor_law.pdf": {
+    "title": "قانون کار",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "family_protection.pdf": {
+    "title": "قانون حمایت خانواده",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "direct_taxes.pdf": {
+    "title": "قانون مالیات‌های مستقیم",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "ecommerce_law.pdf": {
+    "title": "قانون تجارت الکترونیکی",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "constitution.pdf": {
+    "title": "قانون اساسی جمهوری اسلامی ایران",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "registration_law.pdf": {
+    "title": "قانون ثبت اسناد و املاک",
+    "doc_type": "law",
+    "source": "rc.majlis.ir"
+  },
+  "ai.txt": {
+    "title": "هوش مصنوعی",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  },
+  "climate_change.txt": {
+    "title": "تغییرات اقلیمی",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  },
+  "computers.txt": {
+    "title": "رایانه",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  },
+  "football.txt": {
+    "title": "فوتبال",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  },
+  "iran_economy.txt": {
+    "title": "اقتصاد ایران",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  },
+  "iran_history.txt": {
+    "title": "تاریخ ایران",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  },
+  "persian_cuisine.txt": {
+    "title": "آشپزی ایرانی",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  },
+  "persian_music.txt": {
+    "title": "موسیقی ایرانی",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  },
+  "spaceflight.txt": {
+    "title": "فضانوردی",
+    "doc_type": "general",
+    "source": "fa.wikipedia.org"
+  }
+}
