@@ -57,3 +57,13 @@ class VectorStore:
                 }
             )
         return hits
+
+    def get_all(self):
+        """Return every stored chunk as a list of dicts (chunk_id, text, metadata)."""
+        result = self._collection.get(include=["documents", "metadatas"])
+        return [
+            {"chunk_id": chunk_id, "text": text, "metadata": metadata}
+            for chunk_id, text, metadata in zip(
+                result["ids"], result["documents"], result["metadatas"]
+            )
+        ]
