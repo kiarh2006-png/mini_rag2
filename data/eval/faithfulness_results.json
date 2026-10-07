@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q01",
+    "grounded_ratio": 0.0,
+    "sentence_count": 3,
+    "has_sources": true
+  },
+  {
+    "id": "q06",
+    "grounded_ratio": 0.0,
+    "sentence_count": 1,
+    "has_sources": true
+  },
+  {
+    "id": "q08",
+    "grounded_ratio": 0.5555555555555556,
+    "sentence_count": 9,
+    "has_sources": true
+  },
+  {
+    "id": "q17",
+    "grounded_ratio": 0.0,
+    "sentence_count": 4,
+    "has_sources": true
+  },
+  {
+    "id": "q20",
+    "grounded_ratio": 0.0,
+    "sentence_count": 7,
+    "has_sources": true
+  },
+  {
+    "id": "q23",
+    "grounded_ratio": 0.0,
+    "sentence_count": 1,
+    "has_sources": true
+  },
+  {
+    "id": "q27",
+    "grounded_ratio": 0.0,
+    "sentence_count": 1,
+    "has_sources": true
+  },
+  {
+    "id": "q32",
+    "grounded_ratio": 0.0,
+    "sentence_count": 9,
+    "has_sources": true
+  },
+  {
+    "id": "q43",
+    "grounded_ratio": 0.0,
+    "sentence_count": 2,
+    "has_sources": true
+  },
+  {
+    "id": "q44",
+    "grounded_ratio": 0.0,
+    "sentence_count": 1,
+    "has_sources": false
+  }
+]

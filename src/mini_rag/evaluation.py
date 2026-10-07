@@ -139,3 +139,19 @@ def evaluate_rejection(dataset, retriever):
 
     rate = sum(r["correctly_rejected"] for r in rows) / len(rows) if rows else 0.0
     return rows, rate
+def check_faithfulness(answer, chunks):
+    """Heuristic groundedness check: what fraction of the answer's sentences
+    have notable word-overlap with the retrieved context."""
+    context = squash(" ".join(c["text"] for c in chunks))
+    sentences = [s.strip() for s in answer.replace("،", ".").split(".") if len(s.strip()) > 8]
+    if not sentences:
+        return {"grounded_ratio": 1.0, "sentence_count": 0}
+    grounded = 0
+    for s in sentences:
+        words = [w for w in squash(s).split() if len(w) > 2]
+        if not words:
+            continue
+        overlap = sum(1 for w in words if w in context)
+        if overlap / len(words) >= 0.5:
+            grounded += 1
+    return {"grounded_ratio": grounded / len(sentences), "sentence_count": len(sentences)}

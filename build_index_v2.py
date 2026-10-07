@@ -15,30 +15,70 @@ OVERLAP = 80
 
 def build_index():
     catalog = load_catalog(CATALOG_PATH)
+
     embedder = Embedder()
+
     print("warming up embedding model...")
     embedder.embed_query("تست گرم‌کردن مدل")
     print("model ready.")
+
     store = VectorStore(path="data/processed/chroma_v2")
+
     paths = sorted(
-        p for p in RAW_DIR.iterdir() if p.suffix.lower() in (".pdf", ".txt")
+        p
+        for p in RAW_DIR.iterdir()
+        if p.suffix.lower() in (".pdf", ".txt")
     )
 
     total_chunks = 0
+
     for path in paths:
         pages = [
-            PageText(p.page, normalize_text(p.text)) for p in extract_text(path)
+            PageText(
+                p.page,
+                normalize_text(p.text),
+            )
+            for p in extract_text(path)
         ]
-        meta = build_metadata(path, catalog)
-        chunks = chunk_document(pages, meta, chunk_size=CHUNK_SIZE, overlap=OVERLAP)
-        if chunks:
-            print(f"  embedding {len(chunks)} chunks for {path.name}...")
-            vectors = embedder.embed_passages([c.text for c in chunks])
-        total_chunks += len(chunks)
-        print(f"{path.name}: {len(pages)} pages, {len(chunks)} chunks")
 
-    print(f"\ntotal: {len(paths)} documents, {total_chunks} chunks")
-    print(f"stored in vector store: {store.count()}")
+        meta = build_metadata(path, catalog)
+
+        chunks = chunk_document(
+            pages,
+            meta,
+            chunk_size=CHUNK_SIZE,
+            overlap=OVERLAP,
+        )
+
+        if chunks:
+            print(
+                f"  embedding {len(chunks)} chunks for {path.name}..."
+            )
+
+            vectors = embedder.embed_passages(
+                [c.text for c in chunks]
+            )
+
+            # Store chunks and their embeddings in Chroma
+            store.add_chunks(chunks, vectors)
+
+        total_chunks += len(chunks)
+
+        print(
+            f"{path.name}: "
+            f"{len(pages)} pages, "
+            f"{len(chunks)} chunks"
+        )
+
+    print(
+        f"\ntotal: {len(paths)} documents, "
+        f"{total_chunks} chunks"
+    )
+
+    print(
+        f"stored in vector store: "
+        f"{store.count()}"
+    )
 
 
 if __name__ == "__main__":
