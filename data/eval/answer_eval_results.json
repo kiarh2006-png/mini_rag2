@@ -1,0 +1,1825 @@
+{
+  "answerable_results": [
+    {
+      "id": "q01",
+      "type": "simple",
+      "question": "هوش مصنوعی در چه سالی به یک شاخه‌ی آکادمیک تبدیل شد؟",
+      "expected_answer": "هوش مصنوعی در سال 1956 میلادی به یک شاخه‌ی آکادمیک تبدیل شد.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، هوش مصنوعی در سال 1956 به شاخه‌ی آکادمیک تبدیل شد. [2] جمله مربوط به سال 1956 در متن ارائه شده است و در آن اشاره شده است که هوش مصنوعی در سال 1956 به شاخه‌ی آکادمیک تبدیل شد.",
+      "expected_document": "ai",
+      "expected_page": 1,
+      "retrieved_count": 5,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.5,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.5,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.5,
+      "citations": [
+        {
+          "number": 2,
+          "valid": true,
+          "document_id": "ai",
+          "page": 1,
+          "chunk_id": "ai-0020"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "هوش مصنوعی",
+          "page": 1,
+          "chunk_id": "ai-0003"
+        },
+        {
+          "n": 2,
+          "title": "هوش مصنوعی",
+          "page": 1,
+          "chunk_id": "ai-0020"
+        },
+        {
+          "n": 3,
+          "title": "هوش مصنوعی",
+          "page": 1,
+          "chunk_id": "ai-0001"
+        },
+        {
+          "n": 4,
+          "title": "هوش مصنوعی",
+          "page": 1,
+          "chunk_id": "ai-0019"
+        },
+        {
+          "n": 5,
+          "title": "هوش مصنوعی",
+          "page": 1,
+          "chunk_id": "ai-0018"
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "type": "specific_section",
+      "question": "یادگیری بانظارت به چه دو نوع اصلی تقسیم می‌شود؟",
+      "expected_answer": "یادگیری بانظارت به دو نوع دسته‌بندی و رگرسیون تقسیم می‌شود.",
+      "generated_answer": "[1] یادگیری بانظارت به دو نوع اصلی تقسیم می‌شود: دسته‌بندی و رگرسیون. [53]",
+      "expected_document": "ai",
+      "expected_page": 1,
+      "retrieved_count": 1,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 1.0,
+      "valid_citation_rate": 0.5,
+      "invalid_citation_rate": 0.5,
+      "missing_citation_rate": 0.0,
+      "citations": [
+        {
+          "number": 1,
+          "valid": true,
+          "document_id": "ai",
+          "page": 1,
+          "chunk_id": "ai-0014"
+        },
+        {
+          "number": 53,
+          "valid": false
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "هوش مصنوعی",
+          "page": 1,
+          "chunk_id": "ai-0014"
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "type": "paraphrase",
+      "question": "کدام روش یادگیری ماشین بدون هیچ راهنمایی الگوها را از داده‌ها پیدا می‌کند؟",
+      "expected_answer": "یادگیری بی‌نظارت بدون راهنمایی یا برچسب، الگوها را از داده‌ها پیدا می‌کند.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "ai",
+      "expected_page": 1,
+      "retrieved_count": 0,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": []
+    },
+    {
+      "id": "q04",
+      "type": "simple",
+      "question": "اصطلاح عامل منطقی در چه حوزه‌هایی به کار می‌رود؟",
+      "expected_answer": "اصطلاح عامل منطقی در اقتصاد، فلسفه و هوش مصنوعی نظری به کار می‌رود.",
+      "generated_answer": "[1] اصطلاح \"عامل منطقی\" به کار رفته در اقتصاد، فلسفه و هوش مصنوعی است. [2]",
+      "expected_document": "ai",
+      "expected_page": 1,
+      "retrieved_count": 2,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.6666666666666666,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 1.0,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.0,
+      "citations": [
+        {
+          "number": 1,
+          "valid": true,
+          "document_id": "ai",
+          "page": 1,
+          "chunk_id": "ai-0084"
+        },
+        {
+          "number": 2,
+          "valid": true,
+          "document_id": "ai",
+          "page": 1,
+          "chunk_id": "ai-0011"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "هوش مصنوعی",
+          "page": 1,
+          "chunk_id": "ai-0084"
+        },
+        {
+          "n": 2,
+          "title": "هوش مصنوعی",
+          "page": 1,
+          "chunk_id": "ai-0011"
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "type": "simple",
+      "question": "واژه‌ی کامپیوتر در چه سالی وارد فرهنگ انگلیسی آکسفورد شد؟",
+      "expected_answer": "واژه‌ی کامپیوتر در سال 1646 میلادی وارد فرهنگ انگلیسی آکسفورد شد.",
+      "generated_answer": "بر اساس متن اصلی، واژه \"کامپیوتر\" در سال 1646 میلادی به فرهنگ انگلیسی آکسفورد وارد شد. این اطلاع از جمله [3] در متن اصلی است.",
+      "expected_document": "computers",
+      "expected_page": 1,
+      "retrieved_count": 2,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.5,
+      "grounded_ratio": 0.5,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 1.0,
+      "missing_citation_rate": 0.5,
+      "citations": [
+        {
+          "number": 3,
+          "valid": false
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "رایانه",
+          "page": 1,
+          "chunk_id": "computers-0005"
+        },
+        {
+          "n": 2,
+          "title": "رایانه",
+          "page": 1,
+          "chunk_id": "computers-0006"
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "type": "specific_section",
+      "question": "رایانه‌ی انیاک اصولاً برای چه محاسباتی طراحی شده بود؟",
+      "expected_answer": "انیاک اصولاً برای محاسبات پرتابه‌ای توپخانه طراحی شده بود.",
+      "generated_answer": "[1] رایانه انیاک اصولاً برای محاسبات پرتابه‌ای توپخانه و محاسبات مربوط به جدول چگالی نوترونی طراحی شده بود.",
+      "expected_document": "computers",
+      "expected_page": 1,
+      "retrieved_count": 3,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 1.0,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.0,
+      "citations": [
+        {
+          "number": 1,
+          "valid": true,
+          "document_id": "computers",
+          "page": 1,
+          "chunk_id": "computers-0019"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "رایانه",
+          "page": 1,
+          "chunk_id": "computers-0019"
+        },
+        {
+          "n": 2,
+          "title": "رایانه",
+          "page": 1,
+          "chunk_id": "computers-0036"
+        },
+        {
+          "n": 3,
+          "title": "رایانه",
+          "page": 1,
+          "chunk_id": "computers-0018"
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "type": "paraphrase",
+      "question": "رایانه‌های کوچک با برنامه‌ی ثابت در چه دستگاه‌هایی به کار گرفته شدند؟",
+      "expected_answer": "رایانه‌های کوچک با برنامه‌ی ثابت در لوازم خانگی، خودروها، هواپیماها و ابزار صنعتی به کار گرفته شدند.",
+      "generated_answer": "[1] رایانه‌های کوچک با برنامه ثابت در لوازم خانگی، خودروها، هواپیماها، و ابزار صنعتی به کار گرفته شدند.",
+      "expected_document": "computers",
+      "expected_page": 1,
+      "retrieved_count": 1,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.5,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 1.0,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.0,
+      "citations": [
+        {
+          "number": 1,
+          "valid": true,
+          "document_id": "computers",
+          "page": 1,
+          "chunk_id": "computers-0039"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "رایانه",
+          "page": 1,
+          "chunk_id": "computers-0039"
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "simple",
+      "question": "ضربه‌ی پنالتی در چه شرایطی داده می‌شود؟",
+      "expected_answer": "اگر بازیکنی در محوطه‌ی جریمه‌ی تیم خودش روی بازیکن حریف خطا کند، ضربه‌ی پنالتی اعلام می‌شود.",
+      "generated_answer": "در این متن، ضربه‌ی پنالتی فقط در شرایط زیر داده می‌شود:\n\n[58]",
+      "expected_document": "football",
+      "expected_page": 1,
+      "retrieved_count": 3,
+      "status": "UNSUPPORTED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 1.0,
+      "missing_citation_rate": 1.0,
+      "citations": [
+        {
+          "number": 58,
+          "valid": false
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "فوتبال",
+          "page": 1,
+          "chunk_id": "football-0028"
+        },
+        {
+          "n": 2,
+          "title": "فوتبال",
+          "page": 1,
+          "chunk_id": "football-0035"
+        },
+        {
+          "n": 3,
+          "title": "فوتبال",
+          "page": 1,
+          "chunk_id": "football-0034"
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "simple",
+      "question": "بالاترین مقدار توسعه‌ی پایدار در اقتصاد ایران در کدام دهه تجربه شده است؟",
+      "expected_answer": "بالاترین مقدار توسعه‌ی پایدار اقتصاد ایران در دهه‌ی 1350 با عدد 67 درصد بوده است.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، بالاترین مقدار توسعه پایدار در اقتصاد ایران در دهه 1350 تجربه شده است.",
+      "expected_document": "iran_economy",
+      "expected_page": 1,
+      "retrieved_count": 3,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.5,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "اقتصاد ایران",
+          "page": 1,
+          "chunk_id": "iran_economy-0060"
+        },
+        {
+          "n": 2,
+          "title": "اقتصاد ایران",
+          "page": 1,
+          "chunk_id": "iran_economy-0058"
+        },
+        {
+          "n": 3,
+          "title": "اقتصاد ایران",
+          "page": 1,
+          "chunk_id": "iran_economy-0049"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "simple",
+      "question": "ایرانیان در کدام نبرد در سال 260 میلادی رومیان را شکست دادند؟",
+      "expected_answer": "ایرانیان در نبرد ادسا در سال 260 میلادی رومیان را شکست دادند.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "iran_history",
+      "expected_page": 1,
+      "retrieved_count": 0,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": []
+    },
+    {
+      "id": "q11",
+      "type": "specific_section",
+      "question": "مدارس نظامیه توسط چه کسی و در کدام شهرها بنیان نهاده شد؟",
+      "expected_answer": "مدارس نظامیه توسط خواجه نظام‌الملک طوسی در بغداد، بلخ، نیشابور و اصفهان بنیان نهاده شد.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "iran_history",
+      "expected_page": 1,
+      "retrieved_count": 0,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": []
+    },
+    {
+      "id": "q12",
+      "type": "paraphrase",
+      "question": "چرا سپاه شاه اسماعیل صفوی در برابر عثمانی‌ها شکست سختی خورد؟",
+      "expected_answer": "سپاه شاه اسماعیل صفوی به دلیل نداشتن توپ‌های جنگی شکست سختی خورد.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "iran_history",
+      "expected_page": 1,
+      "retrieved_count": 0,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": []
+    },
+    {
+      "id": "q13",
+      "type": "paraphrase",
+      "question": "نظام کنونی موسیقی ایرانی مبتنی بر دستگاه‌ها در کدام دوره شکل گرفت؟",
+      "expected_answer": "نظام کنونی موسیقی ایرانی مبتنی بر دستگاه‌ها در دوره‌ی قاجار شکل گرفت.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، نیروهای کلی برای شکل‌گیری نظام کنونی موسیقی ایرانی مبتنی بر دستگاه‌ها در دوره قاجار شکل گرفت. [2]",
+      "expected_document": "persian_music",
+      "expected_page": 1,
+      "retrieved_count": 2,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [
+        {
+          "number": 2,
+          "valid": true,
+          "document_id": "persian_music",
+          "page": 1,
+          "chunk_id": "persian_music-0002"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "موسیقی ایرانی",
+          "page": 1,
+          "chunk_id": "persian_music-0014"
+        },
+        {
+          "n": 2,
+          "title": "موسیقی ایرانی",
+          "page": 1,
+          "chunk_id": "persian_music-0002"
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "specific_section",
+      "question": "مواد اصلی قلیه ماهی چیست؟",
+      "expected_answer": "قلیه ماهی از تمر هندی، ماهی، گشنیز، شنبلیله و ادویه‌جات تهیه می‌شود.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "persian_cuisine",
+      "expected_page": 1,
+      "retrieved_count": 0,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": []
+    },
+    {
+      "id": "q15",
+      "type": "simple",
+      "question": "کاوش فضایی به چه معناست؟",
+      "expected_answer": "کاوش فضایی به معنای کشف و شناسایی اجرام آسمانی در فضای بیرونی است.",
+      "generated_answer": "کاوش فضایی به معنی کشف و شناسایی اجرام آسمانی در فضای بیرونی با فناوری فضایی است. در این مورد، اسپوتنیک-1، که در سال 1957 به مدار زمین گشت، اولین ماهواره بود که از طریق فناوری فضایی به زمین رسید. این کاوشگار به عنوان پیشگام در زمینه کاوش فضا شناخته می‌شود.",
+      "expected_document": "spaceflight",
+      "expected_page": 1,
+      "retrieved_count": 1,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "فضانوردی",
+          "page": 1,
+          "chunk_id": "spaceflight-0001"
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "specific_section",
+      "question": "اکتشاف فیزیکی فضای بیرونی با چه نوع کاوشگرهایی انجام می‌شود؟",
+      "expected_answer": "اکتشاف فیزیکی فضای بیرونی هم با کاوشگرهای بدون سرنشین و هم با فضاپیماهای سرنشین‌دار انجام می‌شود.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "spaceflight",
+      "expected_page": 1,
+      "retrieved_count": 1,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "فضانوردی",
+          "page": 1,
+          "chunk_id": "spaceflight-0001"
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "specific_section",
+      "question": "مجازات استفاده‌ی غیرمجاز از لباس رسمی ماموران نظامی یا انتظامی چیست؟",
+      "expected_answer": "استفاده‌ی غیرمجاز از لباس رسمی ماموران نظامی یا انتظامی مجازات شلاق تا 74 ضربه دارد، مگر قانون دیگری مجازات شدیدتری تعیین کرده باشد.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، مجازات استفاده‌ی غیرمجاز از لباس رسمی ماموران نظامی یا انتظامی جمهوری اسلامی ایران یا نشان‌ها، مدال‌ها یا سایر امتیازات دولتی به شرط معامله متقابل یا در صورتی که موجب اختلال در نظم عمومی گردد مشمول ماده 60 فصل نهم قانون مجازات اسلامی است. مجازات در این مورد ۲ سال حبس است.",
+      "expected_document": "penal_code",
+      "expected_page": 8,
+      "retrieved_count": 5,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0023"
+        },
+        {
+          "n": 2,
+          "title": "قانون مجازات اسلامی",
+          "page": 8,
+          "chunk_id": "penal_code-0020"
+        },
+        {
+          "n": 3,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0022"
+        },
+        {
+          "n": 4,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0011"
+        },
+        {
+          "n": 5,
+          "title": "قانون مجازات اسلامی",
+          "page": 11,
+          "chunk_id": "penal_code-0029"
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "paraphrase",
+      "question": "اگر مأمور دولت هنگام مأموریت از کسی خوراک یا سوخت بگیرد و بهای عادلانه نپردازد چه مجازاتی دارد؟",
+      "expected_answer": "مأموری که بدون پرداخت قیمت عادلانه خوراک یا سوخت یا علوفه بگیرد، به شلاق محکوم و ملزم به پرداخت باقی‌مانده‌ی قیمت می‌شود.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، اگر مأمور دولت کسی را خوراک یا سوخت بگیرد و به آن‌ها عادلانه نپردازد، مجازاتی به صورت زیر است:\n\n[3] (منبع: قانون مجازات اسلامی، صفحه 12)\n.آنرا به صاحبش رد کند\n[3] (منبع: قانون مجازات اسلامی، صفحه 12)\nبه حسب مورد به قصاص یا دیه یا تا هر یک از مستخدمین و مامورین دولت که در حین انجام ماموریت خود از کسی- 63 ماده چیزی از قبیل ماکولات یا سوخت یا علوفه بگیرد بدون‌این که قیمت عادلانه بدهد به ضربه محکوم خواهد شد\n\nپس، مجازاتی که برای این حالت تعریف شده است، ضربه شلاق است.",
+      "expected_document": "penal_code",
+      "expected_page": 12,
+      "retrieved_count": 3,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.5,
+      "grounded_ratio": 0.5,
+      "citation_coverage": 0.3333333333333333,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.6666666666666666,
+      "citations": [
+        {
+          "number": 3,
+          "valid": true,
+          "document_id": "penal_code",
+          "page": 12,
+          "chunk_id": "penal_code-0032"
+        },
+        {
+          "number": 3,
+          "valid": true,
+          "document_id": "penal_code",
+          "page": 12,
+          "chunk_id": "penal_code-0032"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مجازات اسلامی",
+          "page": 15,
+          "chunk_id": "penal_code-0042"
+        },
+        {
+          "n": 2,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0041"
+        },
+        {
+          "n": 3,
+          "title": "قانون مجازات اسلامی",
+          "page": 12,
+          "chunk_id": "penal_code-0032"
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "paraphrase",
+      "question": "کسانی که در قمارخانه یا محل صرف مشروبات الکلی خدمت کنند یا به دایرکننده‌ی آن کمک کنند چه مجازاتی دارند؟",
+      "expected_answer": "کسانی که در قمارخانه یا اماکن صرف مشروبات الکلی خدمت کنند یا به دایرکننده‌ی آن کمک یا شراکت کنند، به شلاق تا 74 ضربه محکوم می‌شوند.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، اشخاصی که در قمارخانه‌ها یا اماکن‌های عمومی معد برای صرف مشروبات الکلی خدمت کرده یا به دایرکننده‌ای از آن‌ها کمک می‌کنند، مجازات شلاق تا هر گاه معلوم شود دارند.",
+      "expected_document": "penal_code",
+      "expected_page": 26,
+      "retrieved_count": 5,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مجازات اسلامی",
+          "page": 26,
+          "chunk_id": "penal_code-0073"
+        },
+        {
+          "n": 2,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0080"
+        },
+        {
+          "n": 3,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0079"
+        },
+        {
+          "n": 4,
+          "title": "قانون مجازات اسلامی",
+          "page": 26,
+          "chunk_id": "penal_code-0072"
+        },
+        {
+          "n": 5,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0081"
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "paraphrase",
+      "question": "اگر کسی فقط شروع به دریافت رشوه کند مجازاتش چه اندازه است؟",
+      "expected_answer": "مجازات شروع به ارتشاء، حداقل مجازات مقرر برای همان مورد ارتشاء است.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، اگر کسی فقط شروع به دریافت رشوه کند، مجازاتش نمی‌گفته شود. فقط در صورتی که رشوه به صورت وجه نقد نباشد و مالی بلاعوض یا به مقدار فاحش ارزان‌تر از قیمت معمولی به مستخدمین دولتی منتقل شود، مجازات می‌شود. در این مورد، مجازات می‌شود \"رشی‌محسوب\" و \"در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.\" [6]",
+      "expected_document": "taazirat",
+      "expected_page": 1,
+      "retrieved_count": 5,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 1.0,
+      "missing_citation_rate": 1.0,
+      "citations": [
+        {
+          "number": 6,
+          "valid": false
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مجازات اسلامی",
+          "page": 13,
+          "chunk_id": "penal_code-0035"
+        },
+        {
+          "n": 2,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0035"
+        },
+        {
+          "n": 3,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0036"
+        },
+        {
+          "n": 4,
+          "title": "قانون مجازات اسلامی",
+          "page": 21,
+          "chunk_id": "penal_code-0058"
+        },
+        {
+          "n": 5,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0037"
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "specific_section",
+      "question": "مجازات کسی که باغ میوه یا تاکستان دیگری را خراب کند چیست؟",
+      "expected_answer": "تخریب باغ میوه یا تاکستان دیگری مجازات حبس از شش ماه تا سه سال و شلاق تا 74 ضربه دارد.",
+      "generated_answer": "[1] مجازات کسی که باغ میوه یا تاکستان دیگری را خراب کند، حبس از دو تا پنج سال است و شلاق تا 74 ضربه محکوم می‌شود و جزای نقدی از سه میلیون تا هیجیون و پانصد هزار ریال‌محکوم می‌شود.",
+      "expected_document": "taazirat",
+      "expected_page": 1,
+      "retrieved_count": 2,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.5,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 1.0,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.0,
+      "citations": [
+        {
+          "number": 1,
+          "valid": true,
+          "document_id": "taazirat",
+          "page": 1,
+          "chunk_id": "taazirat-0070"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0070"
+        },
+        {
+          "n": 2,
+          "title": "قانون مجازات اسلامی",
+          "page": 24,
+          "chunk_id": "penal_code-0066"
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "simple",
+      "question": "مجازات ساخت یا فروش ابزار و وسایل قمار چیست؟",
+      "expected_answer": "ساخت یا فروش وسایل قماربازی مجازات سه ماه تا یک سال حبس و جزای نقدی دارد.",
+      "generated_answer": "[2] ماده 211 - هر کس قمارخانه دایر کند یا مردم را برای قمار به آنجا دعوت نماید به شش ماه تا دو سال حبس و یا از سه میلیون تا شش میلیون ریال جزای نقدی محکوم می‌شود.",
+      "expected_document": "taazirat",
+      "expected_page": 1,
+      "retrieved_count": 3,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.5,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 1.0,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.0,
+      "citations": [
+        {
+          "number": 2,
+          "valid": true,
+          "document_id": "taazirat",
+          "page": 1,
+          "chunk_id": "taazirat-0079"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0080"
+        },
+        {
+          "n": 2,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0079"
+        },
+        {
+          "n": 3,
+          "title": "قانون مجازات اسلامی",
+          "page": 26,
+          "chunk_id": "penal_code-0072"
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "simple",
+      "question": "عقد معاوضه چیست؟",
+      "expected_answer": "معاوضه عقدی است که به‌موجب آن هر یک از طرفین مالی می‌دهد و در عوض مال دیگری می‌گیرد.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "civil_law",
+      "expected_page": 32,
+      "retrieved_count": 1,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مدنی",
+          "page": 32,
+          "chunk_id": "civil_law-0093"
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "paraphrase",
+      "question": "اجاره یعنی چه و در آن مستأجر چه چیزی را مالک می‌شود؟",
+      "expected_answer": "اجاره عقدی است که به‌موجب آن مستأجر مالک منافع عین مستأجره می‌شود.",
+      "generated_answer": "در متن‌های ارائه شده، اجاره به عنوان عقدی است که یکی از طرفین (مستاجر) به مالک (موجر) مالی از عین مستاجره (موجوداتی که به موجر می‌شود) می‌دهد. مستاجر در این میان مالک مستاجره را می‌گیرد و موجر به مستاجر مالی از عین مستاجره می‌دهد. بنابراین، مستاجر در اجاره مالک می‌شود.",
+      "expected_document": "civil_law",
+      "expected_page": 32,
+      "retrieved_count": 5,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مدنی",
+          "page": 32,
+          "chunk_id": "civil_law-0093"
+        },
+        {
+          "n": 2,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 19,
+          "chunk_id": "direct_taxes-0052"
+        },
+        {
+          "n": 3,
+          "title": "قانون مدنی",
+          "page": 42,
+          "chunk_id": "civil_law-0124"
+        },
+        {
+          "n": 4,
+          "title": "قانون مدنی",
+          "page": 33,
+          "chunk_id": "civil_law-0097"
+        },
+        {
+          "n": 5,
+          "title": "قانون مدنی",
+          "page": 34,
+          "chunk_id": "civil_law-0101"
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "specific_section",
+      "question": "اگر مدعی‌علیه نه قسم یاد کند و نه آن را به طرف دیگر رد کند چه می‌شود؟",
+      "expected_answer": "اگر مدعی‌علیه نه قسم یاد کند و نه آن را به مدعی رد کند، با سوگند مدعی، به حکم دادگاه محکوم می‌شود.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، در صورتی که مدعی نه قسم یاد کند و نه آن را به طرف دیگر رد کند، حکم حاکم بر مدعی علیه اعمال خواهد شد. این متن‌ها نشان‌دهنده قوانین مدنی و دادرسی مدنی هستند که در آن‌ها این نوع مسائل قانونی مورد بررسی قرار می‌گیرند. بر اساس ماده 14/8/1370 و 8/10/61 ماده 1328، اگر مدعی نه قسم یاد کند و نه آن را به طرف دیگر رد کند، با سوگند مدعی به حکم حاکم علیه مدعی علیه محکوم خواهد شد.",
+      "expected_document": "civil_law",
+      "expected_page": 95,
+      "retrieved_count": 5,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 0.6666666666666666,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مدنی",
+          "page": 95,
+          "chunk_id": "civil_law-0283"
+        },
+        {
+          "n": 2,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 45,
+          "chunk_id": "civil_procedure-0115"
+        },
+        {
+          "n": 3,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 46,
+          "chunk_id": "civil_procedure-0118"
+        },
+        {
+          "n": 4,
+          "title": "قانون مدنی",
+          "page": 95,
+          "chunk_id": "civil_law-0284"
+        },
+        {
+          "n": 5,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 46,
+          "chunk_id": "civil_procedure-0119"
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "specific_section",
+      "question": "خوانده چند روز پس از ابلاغ فرصت دارد دفاع خود را با دلایل مطرح کند؟",
+      "expected_answer": "خوانده ظرف ده روز از تاریخ ابلاغ فرصت دارد دفاع خود را با دلایل مطرح کند.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "civil_procedure",
+      "expected_page": 23,
+      "retrieved_count": 5,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 19,
+          "chunk_id": "civil_procedure-0049"
+        },
+        {
+          "n": 2,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 13,
+          "chunk_id": "civil_procedure-0032"
+        },
+        {
+          "n": 3,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 13,
+          "chunk_id": "civil_procedure-0031"
+        },
+        {
+          "n": 4,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 10,
+          "chunk_id": "civil_procedure-0025"
+        },
+        {
+          "n": 5,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 14,
+          "chunk_id": "civil_procedure-0036"
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "simple",
+      "question": "تامین خواسته در قانون آیین دادرسی مدنی چیست؟",
+      "expected_answer": "تأمین خواسته یعنی توقیف اموال منقول یا غیرمنقول برای تضمین اجرای حکم آینده.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "civil_procedure",
+      "expected_page": 23,
+      "retrieved_count": 5,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 21,
+          "chunk_id": "civil_procedure-0052"
+        },
+        {
+          "n": 2,
+          "title": "قانون آیین دادرسی کیفری",
+          "page": 14,
+          "chunk_id": "criminal_procedure-0035"
+        },
+        {
+          "n": 3,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 22,
+          "chunk_id": "civil_procedure-0054"
+        },
+        {
+          "n": 4,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 27,
+          "chunk_id": "civil_procedure-0067"
+        },
+        {
+          "n": 5,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 27,
+          "chunk_id": "civil_procedure-0068"
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "paraphrase",
+      "question": "اگر کسی که سند به او نسبت داده شده از نوشتن یا زدن اثر انگشت خودداری کند چه اثری دارد؟",
+      "expected_answer": "امتناع صاحب سند از نوشتن یا زدن اثر انگشت می‌تواند قرینه‌ای بر صحت سند تلقی شود.",
+      "generated_answer": "بر اساس متن ارائه شده، اگر شخصی که سند به او نسبت داده شده از نوشتن یا زدن اثر انگشت خودداری کند، اثر انگشت به او نسبت نمی‌دهند. در این صورت، شخصی که سند به او نسبت داده شده، قرینه صحت سند را تلقی می‌کند.",
+      "expected_document": "civil_procedure",
+      "expected_page": 38,
+      "retrieved_count": 2,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 36,
+          "chunk_id": "civil_procedure-0090"
+        },
+        {
+          "n": 2,
+          "title": "قانون آیین دادرسی مدنی",
+          "page": 38,
+          "chunk_id": "civil_procedure-0094"
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "specific_section",
+      "question": "برای جرائمی مانند سرقت و کلاهبرداری، متهم باید چه سابقه‌ای داشته باشد تا شرایط مربوط برقرار شود؟",
+      "expected_answer": "متهم باید حداقل یک فقره سابقه‌ی محکومیت قطعی یا دو فقره یا بیشتر سابقه‌ی محکومیت غیرقطعی داشته باشد.",
+      "generated_answer": "برای جرائمی مانند سرقت و کلاهبرداری، متهم باید حداقل یک فقره سابقه‌محکومیت قطعی داشته باشد تا شرایط مربوط برقرار شود.",
+      "expected_document": "criminal_procedure",
+      "expected_page": 8,
+      "retrieved_count": 1,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون آیین دادرسی کیفری",
+          "page": 8,
+          "chunk_id": "criminal_procedure-0018"
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "specific_section",
+      "question": "اگر متهم مجنون باشد قاضی تحقیق چه اقداماتی باید انجام دهد؟",
+      "expected_answer": "قاضی تحقیق از کسان و نزدیکان متهم و سایر مطلعین تحقیق می‌کند و نظر پزشک متخصص را می‌گیرد.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "criminal_procedure",
+      "expected_page": 16,
+      "retrieved_count": 2,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون آیین دادرسی کیفری",
+          "page": 16,
+          "chunk_id": "criminal_procedure-0042"
+        },
+        {
+          "n": 2,
+          "title": "قانون آیین دادرسی کیفری",
+          "page": 20,
+          "chunk_id": "criminal_procedure-0054"
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "paraphrase",
+      "question": "قاضی از میان اوراق و نوشته‌های متعلق به متهم فقط کدام‌ها را تحصیل می‌کند؟",
+      "expected_answer": "قاضی فقط اوراق و نوشته‌هایی را که به واقعه‌ی جرم مربوط است، تحصیل می‌کند.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "criminal_procedure",
+      "expected_page": 17,
+      "retrieved_count": 0,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": []
+    },
+    {
+      "id": "q32",
+      "type": "simple",
+      "question": "چه کسانی مکلف‌اند برای املاک خود اظهارنامه‌ی مالیاتی تسلیم کنند؟",
+      "expected_answer": "همه‌ی اشخاص حقیقی و حقوقی یا قائم‌مقام قانونی آن‌ها مکلف‌اند برای املاک خود اظهارنامه‌ی مالیاتی تسلیم کنند.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، اشخاص حقوقی که املاک خود را تحت تکفل قرار داده‌اند، مکلفند اظهارنامه مالیاتی را تسلیم کنند. این اشخاص حقوقی می‌توانند اشخاص حقیقی باشند که املاک را تحت تکفل قرار داده‌اند. برای اینکه بتوانم پاسخ بفرمایم، باید از متن‌های ارائه شده استفاده کنم و نیاز به اضافه کردن اطلاعات خاصی ندارم.",
+      "expected_document": "direct_taxes",
+      "expected_page": 4,
+      "retrieved_count": 5,
+      "status": "UNSUPPORTED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.3333333333333333,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 4,
+          "chunk_id": "direct_taxes-0010"
+        },
+        {
+          "n": 2,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 4,
+          "chunk_id": "direct_taxes-0009"
+        },
+        {
+          "n": 3,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 72,
+          "chunk_id": "direct_taxes-0205"
+        },
+        {
+          "n": 4,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 35,
+          "chunk_id": "direct_taxes-0100"
+        },
+        {
+          "n": 5,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 44,
+          "chunk_id": "direct_taxes-0126"
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "paraphrase",
+      "question": "دفاتر اسناد رسمی تا چه زمانی باید فهرست معاملات ماهانه را به حوزه‌ی مالیاتی تحویل دهند؟",
+      "expected_answer": "دفاتر اسناد رسمی باید فهرست خلاصه‌ی معاملات هر ماه را تا پایان ماه بعد تحویل دهند.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، دفاتر اسناد رسمی باید فهرست معاملات ماهانه را تا پایان ماه بعد تسلیم دهند. این مورد در ماده [4] قانون مالیات‌های مستقیم، صفحه 70 ذکر شده است.",
+      "expected_document": "direct_taxes",
+      "expected_page": 70,
+      "retrieved_count": 5,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.5,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.5,
+      "citations": [
+        {
+          "number": 4,
+          "valid": true,
+          "document_id": "direct_taxes",
+          "page": 70,
+          "chunk_id": "direct_taxes-0199"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 70,
+          "chunk_id": "direct_taxes-0198"
+        },
+        {
+          "n": 2,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 69,
+          "chunk_id": "direct_taxes-0197"
+        },
+        {
+          "n": 3,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 44,
+          "chunk_id": "direct_taxes-0126"
+        },
+        {
+          "n": 4,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 70,
+          "chunk_id": "direct_taxes-0199"
+        },
+        {
+          "n": 5,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 44,
+          "chunk_id": "direct_taxes-0127"
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "specific_section",
+      "question": "مأموران تشخیص مالیات از کدام نهادها می‌توانند اطلاعات و اسناد مربوط به مؤدی را بخواهند؟",
+      "expected_answer": "مأموران تشخیص مالیات می‌توانند از وزارتخانه‌ها، شرکت‌های دولتی و شهرداری‌ها اطلاعات لازم درباره‌ی مؤدی را بخواهند.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، مأموران تشخیص مالیات از وزارتخانه‌ها، مؤسسات دولتی، شرکت‌های دولتی، نهادهای انقلاب اسلامی، شهرداری‌ها و سایر مؤسسات و نهادهای عمومی غیردولتی اطلاعات و اسناد مربوط به مؤدی را بخواهند.",
+      "expected_document": "direct_taxes",
+      "expected_page": 82,
+      "retrieved_count": 5,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 82,
+          "chunk_id": "direct_taxes-0235"
+        },
+        {
+          "n": 2,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 82,
+          "chunk_id": "direct_taxes-0234"
+        },
+        {
+          "n": 3,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 82,
+          "chunk_id": "direct_taxes-0236"
+        },
+        {
+          "n": 4,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 94,
+          "chunk_id": "direct_taxes-0272"
+        },
+        {
+          "n": 5,
+          "title": "قانون مالیات‌های مستقیم",
+          "page": 84,
+          "chunk_id": "direct_taxes-0240"
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "specific_section",
+      "question": "اگر اصل‌ساز اثر حقوقی داده پیام را مشروط به تصدیق دریافت کند و تصدیقی نرسد، وضعیت آن چیست؟",
+      "expected_answer": "اگر اصل‌ساز اثر حقوقی داده‌پیام را مشروط به تصدیق دریافت کرده باشد و تصدیقی نرسد، آن داده‌پیام ارسال‌نشده تلقی می‌شود.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، در صورتی که اصل‌ساز اثر حقوقی (داده پیام) را مشروط به تصدیق دریافت کند و این تصدیق نرسد، وضعیت آن به صورت زیر خواهد بود:\n\n- داده پیام صادق نیست (ماده 23)\n- این اثر حقوقی مطابق با الزامات مورد نظر (ماده 24)\n- این اثر حقوقی می‌تواند به صورت فنی استاندارد یا روش مورد توافق طرفین تبیین شود (ماده 25)\n- این اثر حقوقی می‌تواند به صورت خارج از کنترل اصل‌ساز یا قائم‌مقام تحقق کند (ماده 26)\n- این اثر حقوقی می‌تواند به صورتی معین شود که زمان و مکان ارسال و دریافت آن تحقق کند (ماده 27)\n- این اثر حقوقی می‌تواند به صورتی معین شود که به سیستم اطلاعاتی معین شده وارد شود (ماده 28)\n- این اثر حقوقی می‌تواند به صورتی معین شود که به سیستم اطلاعاتی مخاطب غیر از سیستمی که منحصر به فرد اصل‌ساز باشد وارد شود (ماده 29)\n\nدر این صورت، این اثر حقوقی می‌تواند به صورت فنی و قانونی تبیین شود، اما نه به صورت شخصی و احتمالاً اثرات حقوقی مانند این اثر حقوقی نمی‌توانند به طور شخصی اعمال شود. این اثر حقوقی به طور فنی و قانونی مورد استفاده قرار می‌گیرد، اما نه به طور شخصی.",
+      "expected_document": "ecommerce_law",
+      "expected_page": 7,
+      "retrieved_count": 5,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 0.5,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 7,
+          "chunk_id": "ecommerce_law-0012"
+        },
+        {
+          "n": 2,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 6,
+          "chunk_id": "ecommerce_law-0011"
+        },
+        {
+          "n": 3,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 8,
+          "chunk_id": "ecommerce_law-0014"
+        },
+        {
+          "n": 4,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 5,
+          "chunk_id": "ecommerce_law-0009"
+        },
+        {
+          "n": 5,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 6,
+          "chunk_id": "ecommerce_law-0010"
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "paraphrase",
+      "question": "مجازات کسی که در مبادلات الکترونیکی شرایط حمایت از داده‌پیام‌های شخصی را نقض کند چیست؟",
+      "expected_answer": "نقض شرایط حمایت از داده‌پیام‌های شخصی در تجارت الکترونیکی، مجازات یک تا سه سال حبس دارد.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، مجازات کسی که در مبادلات الکترونیکی شرایط حمایت از داده‌پیام‌های شخصی را نقض کند، حداقل یک تا سه سال حبس و جزای نقدی معادل پنجاه میلیون ریال است. این مجازات حداقل مقرر در ماده 59( ) این قانون می‌باشد.",
+      "expected_document": "ecommerce_law",
+      "expected_page": 16,
+      "retrieved_count": 5,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 16,
+          "chunk_id": "ecommerce_law-0032"
+        },
+        {
+          "n": 2,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 17,
+          "chunk_id": "ecommerce_law-0034"
+        },
+        {
+          "n": 3,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 15,
+          "chunk_id": "ecommerce_law-0030"
+        },
+        {
+          "n": 4,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 12,
+          "chunk_id": "ecommerce_law-0023"
+        },
+        {
+          "n": 5,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 15,
+          "chunk_id": "ecommerce_law-0031"
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "simple",
+      "question": "کدام وزارتخانه مأمور شناسایی زمینه‌های مؤثر در اجرای قانون تجارت الکترونیکی است؟",
+      "expected_answer": "وزارت بازرگانی مسئول شناسایی زمینه‌های مؤثر در اجرای قانون تجارت الکترونیکی است.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "ecommerce_law",
+      "expected_page": 18,
+      "retrieved_count": 2,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 18,
+          "chunk_id": "ecommerce_law-0036"
+        },
+        {
+          "n": 2,
+          "title": "قانون تجارت الکترونیکی",
+          "page": 18,
+          "chunk_id": "ecommerce_law-0037"
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "specific_section",
+      "question": "دادگاه خانواده در چه صورتی می‌تواند نظر مراکز مشاوره‌ی خانواده را بخواهد؟",
+      "expected_answer": "دادگاه خانواده در صورت لزوم می‌تواند با مشخص‌کردن موضوع اختلاف و تعیین مهلت، نظر مراکز مشاوره‌ی خانواده را بخواهد.",
+      "generated_answer": "[2] دادگاه خانواده می‌تواند نظر مراکز مشاوره خانواده را در مورد امور و دعاوی خانوادگی خواستار شود.",
+      "expected_document": "family_protection",
+      "expected_page": 7,
+      "retrieved_count": 5,
+      "status": "PARTIALLY_CORRECT",
+      "fact_match_ratio": 0.5,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 1.0,
+      "valid_citation_rate": 1.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 0.0,
+      "citations": [
+        {
+          "number": 2,
+          "valid": true,
+          "document_id": "family_protection",
+          "page": 6,
+          "chunk_id": "family_protection-0012"
+        }
+      ],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون حمایت خانواده",
+          "page": 7,
+          "chunk_id": "family_protection-0013"
+        },
+        {
+          "n": 2,
+          "title": "قانون حمایت خانواده",
+          "page": 6,
+          "chunk_id": "family_protection-0012"
+        },
+        {
+          "n": 3,
+          "title": "قانون حمایت خانواده",
+          "page": 8,
+          "chunk_id": "family_protection-0017"
+        },
+        {
+          "n": 4,
+          "title": "قانون اساسی جمهوری اسلامی ایران",
+          "page": 301,
+          "chunk_id": "constitution-0667"
+        },
+        {
+          "n": 5,
+          "title": "قانون حمایت خانواده",
+          "page": 3,
+          "chunk_id": "family_protection-0003"
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "paraphrase",
+      "question": "اگر زوجه پس از اخطار سردفتر برای اجرای صیغه‌ی طلاق حاضر نشود چه می‌شود؟",
+      "expected_answer": "اگر زوجه پس از اخطار سردفتر حاضر نشود، صیغه‌ی طلاق جاری و پس از ثبت به او اطلاع داده می‌شود.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، در صورت عدم حضور زوجه بعد از ابلاغ اخطار سردفتر برای اجرای صیغه طلاق، عدم حضور زوجه مانع اجرای صیغه طلاق نیست. در این صورت، صیغه طلاق انجام می‌شود و پس از ثبت آن در دفترخانه، زوجین به وسیله سردفتر به زوجین اطلاع داده می‌شود.",
+      "expected_document": "family_protection",
+      "expected_page": 10,
+      "retrieved_count": 4,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون حمایت خانواده",
+          "page": 10,
+          "chunk_id": "family_protection-0022"
+        },
+        {
+          "n": 2,
+          "title": "قانون حمایت خانواده",
+          "page": 9,
+          "chunk_id": "family_protection-0020"
+        },
+        {
+          "n": 3,
+          "title": "قانون حمایت خانواده",
+          "page": 10,
+          "chunk_id": "family_protection-0023"
+        },
+        {
+          "n": 4,
+          "title": "قانون حمایت خانواده",
+          "page": 10,
+          "chunk_id": "family_protection-0021"
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "paraphrase",
+      "question": "کسی که از اجرای حکم حضانت طفل خودداری کند چه مجازاتی دارد؟",
+      "expected_answer": "کسی که از اجرای حکم حضانت طفل خودداری کند، به تقاضای ذی‌نفع تا زمان اجرای حکم بازداشت می‌شود.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، اگر مسؤول حضانت از انجام تکالیف مقرر خودداری کند، برای بار اول به پرداخت جزای نقدی درجه 54 ماده مجازات خواهد یافت. در صورت تکرار، به حداکثر مجازات مذکور محکوم خواهد شد. پس مجازات برای این عمل بستگی به تعداد تکرار دارد. برای بار اول، مجازات 54 ماده است و در صورت تکرار، حداکثر مجازات مذکور است.",
+      "expected_document": "family_protection",
+      "expected_page": 11,
+      "retrieved_count": 5,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 0.5,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون حمایت خانواده",
+          "page": 11,
+          "chunk_id": "family_protection-0024"
+        },
+        {
+          "n": 2,
+          "title": "قانون حمایت خانواده",
+          "page": 14,
+          "chunk_id": "family_protection-0032"
+        },
+        {
+          "n": 3,
+          "title": "قانون مجازات اسلامی",
+          "page": 18,
+          "chunk_id": "penal_code-0050"
+        },
+        {
+          "n": 4,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0053"
+        },
+        {
+          "n": 5,
+          "title": "قانون مدنی",
+          "page": 82,
+          "chunk_id": "civil_law-0243"
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "specific_section",
+      "question": "اگر ملکی که عرضحال اعتراض نسبت به آن داده شده منتقل شود، انتقال‌دهنده چه تکلیفی دارد؟",
+      "expected_answer": "انتقال‌دهنده مکلف است انتقال‌گیرنده و معترض را از جریان اعتراض و انتقال مطلع کند.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، انتقال‌دهنده مسئولیت‌های زیر خواهد بود در صورت انتقال ملکی که عرضحال اعتراض داده شده:\n\n1. در ظرف ده روز از تاریخ انتقال، انتقال‌دهنده باید معترض را از وقوع انتقال و اسم انتقال‌گیرنده به وسیله اظهارنامه اعلام کند.\n2. اگر انتقال‌دهنده اطلاعات را به اداره ثبت املاک نبیند، اداره ثبت املاک انتقال‌دهنده را به وسیله اخطار اعلام خواهد کرد.\n3. اگر انتقال‌دهنده اطلاعات را به اداره ثبت املاک نبیند و این اطلاعات نیز از طریق اداره ثبت املاک به معترض اطلاع نمی‌رسد، انتقال‌دهنده مسئولیت‌هایی برای معترض خواهد بود که از تخلف او بر انتقال‌گیرنده یا معترض توقیف خواهد شد.\n\nبه عبارت دیگر، انتقال‌دهنده مسئولیت‌های زیادی را برای انتقال ملکی که عرضحال اعتراض داده شده دارد و باید اطلاعات را به اداره ثبت املاک اطلاع دهد. اگر این اطلاعات نبیند، انتقال‌دهنده مسئولیت‌های بیشتری را برای معترض و انتقال‌گیرنده خواهد بود.",
+      "expected_document": "registration_law",
+      "expected_page": 19,
+      "retrieved_count": 5,
+      "status": "CORRECT",
+      "fact_match_ratio": 1.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون ثبت اسناد و املاک",
+          "page": 19,
+          "chunk_id": "registration_law-0052"
+        },
+        {
+          "n": 2,
+          "title": "قانون ثبت اسناد و املاک",
+          "page": 19,
+          "chunk_id": "registration_law-0053"
+        },
+        {
+          "n": 3,
+          "title": "قانون ثبت اسناد و املاک",
+          "page": 19,
+          "chunk_id": "registration_law-0054"
+        },
+        {
+          "n": 4,
+          "title": "قانون ثبت اسناد و املاک",
+          "page": 12,
+          "chunk_id": "registration_law-0031"
+        },
+        {
+          "n": 5,
+          "title": "قانون ثبت اسناد و املاک",
+          "page": 20,
+          "chunk_id": "registration_law-0055"
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "paraphrase",
+      "question": "مجازات کسی که نسبت به یک مال به کسی حق بدهد و بعد معامله‌ی معارض با آن انجام دهد چیست؟",
+      "expected_answer": "کسی که پس از دادن حق به دیگری، معامله یا تعهدی معارض با آن حق انجام دهد، جاعل اسناد رسمی محسوب و به حبس با اعمال شاقه از سه تا پانزده سال محکوم می‌شود.",
+      "generated_answer": "بر اساس متن‌های ارائه شده، مجازات کسی که به مالیاتی نسبت به یک مال به کسی حق بدهد و سپس معامله‌ای معارض با آن انجام دهد، مشخص نیست. در متن‌های ارائه شده، فقط مسائلی مانند اینکه مال را به مصرف معینی برساند یا به جای یک مال به یک مال دیگر قلمداد کند، مورد توضیح قرار گرفته است. پس از تحلیل متن‌ها، پاسخ به سؤال شما به صورت زیر خواهد بود:\n\nدر اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "registration_law",
+      "expected_page": 32,
+      "retrieved_count": 5,
+      "status": "UNSUPPORTED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.25,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون مجازات اسلامی",
+          "page": 22,
+          "chunk_id": "penal_code-0060"
+        },
+        {
+          "n": 2,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0033"
+        },
+        {
+          "n": 3,
+          "title": "قانون مجازات (تعزیرات)",
+          "page": 1,
+          "chunk_id": "taazirat-0040"
+        },
+        {
+          "n": 4,
+          "title": "قانون ثبت اسناد و املاک",
+          "page": 32,
+          "chunk_id": "registration_law-0090"
+        },
+        {
+          "n": 5,
+          "title": "قانون مجازات اسلامی",
+          "page": 15,
+          "chunk_id": "penal_code-0041"
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "specific_section",
+      "question": "طبق اصل 136 قانون اساسی، رئیس‌جمهور در صورت عزل وزیران باید چه کاری انجام دهد؟",
+      "expected_answer": "رئیس‌جمهور می‌تواند وزرا را عزل کند، ولی باید برای وزیر یا وزیران جدید از مجلس رأی اعتماد بگیرد.",
+      "generated_answer": "بر اساس اصل 136 قانون اساسی، رئیس جمهور باید برای وزیران جدید از مجلس رای اعتماد بگیرد.",
+      "expected_document": "constitution",
+      "expected_page": 238,
+      "retrieved_count": 4,
+      "status": "INCORRECT",
+      "fact_match_ratio": 0.0,
+      "grounded_ratio": 1.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": [
+        {
+          "n": 1,
+          "title": "قانون اساسی جمهوری اسلامی ایران",
+          "page": 67,
+          "chunk_id": "constitution-0130"
+        },
+        {
+          "n": 2,
+          "title": "قانون اساسی جمهوری اسلامی ایران",
+          "page": 238,
+          "chunk_id": "constitution-0511"
+        },
+        {
+          "n": 3,
+          "title": "قانون اساسی جمهوری اسلامی ایران",
+          "page": 66,
+          "chunk_id": "constitution-0128"
+        },
+        {
+          "n": 4,
+          "title": "قانون اساسی جمهوری اسلامی ایران",
+          "page": 53,
+          "chunk_id": "constitution-0098"
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "paraphrase",
+      "question": "در مقدمه‌ی قانون اساسی درباره‌ی خون صدها زن و مرد جوان در مبارزه با رژیم استبداد چه گفته شده است؟",
+      "expected_answer": "در مقدمه‌ی قانون اساسی آمده که خون صدها زن و مرد جوان، بهای مبارزه‌ی ملت برای تداوم انقلاب بود.",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "expected_document": "constitution",
+      "expected_page": 26,
+      "retrieved_count": 0,
+      "status": "ABSTAINED",
+      "fact_match_ratio": null,
+      "grounded_ratio": 0.0,
+      "citation_coverage": 0.0,
+      "valid_citation_rate": 0.0,
+      "invalid_citation_rate": 0.0,
+      "missing_citation_rate": 1.0,
+      "citations": [],
+      "sources": []
+    }
+  ],
+  "abstention_results": [
+    {
+      "id": "q45",
+      "question": "بلندترین قله‌ی جهان کدام است؟",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "retrieved_count": 0,
+      "correctly_abstained": true
+    },
+    {
+      "id": "q46",
+      "question": "نقطه‌ی جوش آب در سطح دریا چند درجه‌ی سانتی‌گراد است؟",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "retrieved_count": 0,
+      "correctly_abstained": true
+    },
+    {
+      "id": "q47",
+      "question": "مدت خدمت سربازی در ایران چند ماه است؟",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "retrieved_count": 0,
+      "correctly_abstained": true
+    },
+    {
+      "id": "q48",
+      "question": "عوارض بیماری دیابت چیست؟",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "retrieved_count": 0,
+      "correctly_abstained": true
+    },
+    {
+      "id": "q49",
+      "question": "سرعت نور چند کیلومتر بر ثانیه است؟",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "retrieved_count": 0,
+      "correctly_abstained": true
+    },
+    {
+      "id": "q50",
+      "question": "چگونه می‌توان یک شرکت با مسئولیت محدود ثبت کرد؟",
+      "generated_answer": "در اسناد موجود اطلاعات کافی برای پاسخ به این سؤال پیدا نشد.",
+      "retrieved_count": 0,
+      "correctly_abstained": true
+    }
+  ],
+  "summary": {
+    "status_counts": {
+      "PARTIALLY_CORRECT": 9,
+      "CORRECT": 10,
+      "ABSTAINED": 13,
+      "UNSUPPORTED": 3,
+      "INCORRECT": 9
+    },
+    "avg_grounded_ratio": 0.5965909090909091,
+    "avg_citation_coverage": 0.18939393939393942,
+    "avg_valid_citation_rate": 0.23863636363636365,
+    "avg_invalid_citation_rate": 0.07954545454545454,
+    "avg_missing_citation_rate": 0.7992424242424242,
+    "correct_abstention_rate": 1.0
+  }
+}

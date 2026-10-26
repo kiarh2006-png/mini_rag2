@@ -62,6 +62,7 @@ def verify_dataset(dataset, chunks):
                 )
     return problems
 
+
 def is_relevant_hit(hit, relevant_chunk_ids):
     return hit["chunk_id"] in relevant_chunk_ids
 
@@ -90,6 +91,7 @@ def reciprocal_rank(retrieved, relevant_chunk_ids):
         if is_relevant_hit(hit, relevant_chunk_ids):
             return 1 / rank
     return 0.0
+
 
 def relevant_ids(item, chunks):
     return {c["chunk_id"] for c in find_relevant_chunks(item, chunks)}
@@ -139,6 +141,8 @@ def evaluate_rejection(dataset, retriever):
 
     rate = sum(r["correctly_rejected"] for r in rows) / len(rows) if rows else 0.0
     return rows, rate
+
+
 def check_faithfulness(answer, chunks):
     """Heuristic groundedness check: what fraction of the answer's sentences
     have notable word-overlap with the retrieved context."""
@@ -155,3 +159,100 @@ def check_faithfulness(answer, chunks):
         if overlap / len(words) >= 0.5:
             grounded += 1
     return {"grounded_ratio": grounded / len(sentences), "sentence_count": len(sentences)}
+
+
+def check_semantic_groundedness(answer, chunks, embedder, threshold=0.55):
+    """Claim-level semantic groundedness: embed each answer sentence and the
+    best-matching context chunk, and compare with cosine similarity.
+
+    Unlike word-overlap, this recognizes paraphrases (e.g. "مجازات حبس است"
+    vs "حبس در نظر گرفته شده است") as grounded, as long as the meaning
+    matches a retrieved chunk closely enough.
+    """
+    from src.mini_rag.citation import split_sentences
+
+    sentences = split_sentences(answer)
+    if not sentences:
+        return {"grounded_ratio": 1.0, "claims": []}
+    if not chunks:
+        return {"grounded_ratio": 0.0, "claims": [{"text": s, "score": 0.0, "grounded": False} for s in sentences]}
+
+    chunk_vectors = embedder.embed_passages([c["text"] for c in chunks])
+    sentence_vectors = embedder.embed_passages(sentences)
+
+    claims = []
+    for sentence, s_vec in zip(sentences, sentence_vectors):
+        best_score = max(_cosine(s_vec, c_vec) for c_vec in chunk_vectors)
+        claims.append({"text": sentence, "score": best_score, "grounded": best_score >= threshold})
+
+    grounded_count = sum(c["grounded"] for c in claims)
+    return {"grounded_ratio": grounded_count / len(claims), "claims": claims}
+
+
+def _cosine(a, b):
+    dot = sum(x * y for x, y in zip(a, b))
+    norm_a = sum(x * x for x in a) ** 0.5
+    norm_b = sum(y * y for y in b) ** 0.5
+    return dot / (norm_a * norm_b) if norm_a and norm_b else 0.0
+
+
+def check_required_facts(answer, required_facts, embedder, threshold=0.7):
+    """What fraction of required_facts are present in the answer.
+
+    A fact counts as present if it's a lexical substring of the answer
+    (after normalization), OR if its semantic similarity to some answer
+    sentence passes `threshold`. Lexical check alone misses paraphrases;
+    semantic-only misses short facts (e.g. a single word like "رگرسیون"),
+    whose embedding similarity to a full sentence is diluted even when the
+    word is literally present. Combining both covers both cases.
+    """
+    if not required_facts:
+        return {"matched_ratio": 1.0, "facts": []}
+
+    answer_squashed = squash(answer)
+    answer_sentences = split_sentences_safe(answer)
+    answer_vectors = embedder.embed_passages(answer_sentences)
+    fact_vectors = embedder.embed_passages(required_facts)
+
+    results = []
+    for fact, f_vec in zip(required_facts, fact_vectors):
+        lexical_match = squash(fact) in answer_squashed
+        best_semantic = max(_cosine(f_vec, a_vec) for a_vec in answer_vectors)
+        present = lexical_match or best_semantic >= threshold
+        results.append(
+            {"fact": fact, "score": best_semantic, "lexical_match": lexical_match, "present": present}
+        )
+
+    matched = sum(r["present"] for r in results)
+    return {"matched_ratio": matched / len(required_facts), "facts": results}
+
+
+def split_sentences_safe(text):
+    from src.mini_rag.citation import split_sentences
+    sentences = split_sentences(text)
+    return sentences if sentences else [text]
+
+
+def classify_answer(answer, required_facts, groundedness_ratio, embedder,
+                     no_info_message, unsupported_threshold=0.5, fact_threshold=0.7):
+    """CORRECT / PARTIALLY_CORRECT / INCORRECT / UNSUPPORTED / ABSTAINED.
+
+    Groundedness and correctness are checked separately: an answer can be
+    grounded but miss key facts (PARTIALLY_CORRECT), or contain the right
+    facts while being poorly grounded overall (UNSUPPORTED).
+    """
+    if answer.strip() == no_info_message.strip():
+        return "ABSTAINED", {"matched_ratio": None, "facts": []}
+
+    if groundedness_ratio < unsupported_threshold:
+        return "UNSUPPORTED", {"matched_ratio": None, "facts": []}
+
+    fact_check = check_required_facts(answer, required_facts, embedder, fact_threshold)
+    ratio = fact_check["matched_ratio"]
+    if ratio >= 0.999:
+        status = "CORRECT"
+    elif ratio > 0:
+        status = "PARTIALLY_CORRECT"
+    else:
+        status = "INCORRECT"
+    return status, fact_check
